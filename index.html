@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcom to prime videa</title>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;200;400;500;600;800&family=Qwitcher+Grypen&family=Tilt+Prism&family=Tulpen+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-196x196.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- boostrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header style="background: black;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-md-6 col-lg-7 d-flex justify-content-center">
+                    <nav class="navbar navbar-expand-lg  ">
+                        <div class="container-fluid ">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">Menu</span>
+                            </button>
+                            
+                            <a id="brand" class="navbar-brand " href="#"><span class="text-white ps-5 pe-5">prime video</span></a>
+                            
+                            <div class="collapse navbar-collapse" id="navbarScroll">
+                                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                    <li class="nav-item dropdown ">
+                                        <a  class="nav-link dropdown-toggle text-nowrap text-secondary pe-4 ps-4 " href="#" id="home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home
+                                        </a>
+                                        <ul class="dropdown-menu bg-dark " aria-labelledby="navbarScrollingDropdown">
+                                            <li><a class="dropdown-item text-white" href="#">All</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Movies</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">TV Shows</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-secondary pe-4 ps-4" href="#" id="store" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Store
+                                        </a>
+                                        <ul style="background: #191e25; color: #ccc;" class="dropdown-menu  " aria-labelledby="navbarScrollingDropdown">
+                                            <li><a class="dropdown-item text-white" href="#">All</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Rent</a></li>
+                                            
+                                            <li><a class="dropdown-item text-white" href="#">Channels</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link active text-nowrap text-secondary pe-4 ps-5 text-nowrap" aria-current="page" id="live" href="#">Live TV</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a  class="nav-link dropdown-toggle text-nowrap text-secondary pe-4 ps-4" href="#" id="category" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Categoties
+                                        </a>
+                                        <div  class="dropdown-menu bg-dark">
+                                            <div class="d-flex">
+                                                <div  class="menu-a d-flex">
+                                                    <div  class="a1">
+                                                        <label for="dropdown-item text-white"><b>Genrers</b></label>
+                                                        <a class="dropdown-item text-white" href="#">Action Adventure</a>
+                                                        <a class="dropdown-  text-white" href="#">Anime</a>
+                                                        <a class="dropdown-  text-white" href="#">Comedy</a>
+                                                        <a class="dropdown-  text-white" href="#">Documentary</a>
+                                                        <a class="dropdown-  text-white" href="#">Drama</a>
+                                                        <a class="dropdown-  text-white" href="#">Fantasy</a>
+                                                    </div>
+                                                    <div class="a2">
+                                                        <label for="dropdown-item text-white"><b> -</b></label>
+                                                        <a class="dropdown-  text-white" href="#">Horror</a>
+                                                        <a class="dropdown-  text-white" href="#">Kids</a>
+                                                        <a class="dropdown-  text-white" href="#">Mystery and thrillers</a>
+                                                        <a class="dropdown-  text-white" href="#">Romance</a>
+                                                        <a class="dropdown-  text-white" href="#">Science Fiction</a>
+                                                        <a class="dropdown-  text-white" href="#">Fantasy</a>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-b d-flex">
+                                                    
+                                                    <div class="a1 ">
+                                                        <label for="dropdown-  text-white" class="text-nowrap" ><b>Featured collections</b></label>
+                                                        <a class="dropdown-  text-white" href="#">Hindi</a>
+                                                        <a class="dropdown-  text-white" href="#">English</a>
+                                                        <a class="dropdown-  text-white" href="#">Telungu</a>
+                                                        <a class="dropdown-  text-white" href="#">Tamil</a>
+                                                        <a class="dropdown-  text-white" href="#">Malayalam</a>
+                                                        
+                                                    </div>
+                                                    <div class="a2">
+                                                        <label for="dropdown-  text-white" class="text-nowrap" ><b> -</b></label>
+                    
+                                                        <a class="dropdown-item" href="#">Kannada</a>
+                                                        <a class="dropdown-item" href="#">Marathi</a>
+                                                        <a class="dropdown-item" href="#">Panjabi</a>
+                                                        <a class="dropdown-item" href="#">Gujarati</a>
+                                                        <a class="dropdown-item" href="#">Bengali</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>                
+                </div>
+                
+                <div id="head2" class="col-md-6 col-lg-5 d-flex justify-content-center ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid ">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">    
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary pe-4 ps-4" href="#" id="search" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                
+                                            <i class="fa-solid fa-magnifying-glass" style="color: #c9c9c9;"></i>
+                                        </a>
+                                        <ul style=" color: #ccc;" class="dropdown-menu  " aria-labelledby="navbarScrollingDropdown">
+                                            <li><input class="dropdown-item text-white bg-dark " type="text"></li>
+                                            
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="nav-item "></li>    
+                                    <div  class="pt-2 pe-5 ps-5">
+                                        <a id="free" class="pe-4 ps-4 nav-link  text-nowrap text-secondary" style="text-decoration: none;" href="#">Try for free</a>
+                                    </div>
+
+                                    <li class="nav-item">
+                                        <div  class="lang">
+                                            <a class="nav-link dropdown-toggle pe-5 ps-5  text-secondary " href="#" id="lang" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                EN
+                                            </a>
+                                            <div class="dropdown-menu bg-dark text-white">
+                                                <div class="d-flex">
+                                                <div class="menu-a d-flex">
+                                                    <div class="a1">
+                                                        <a class="dropdown-item" href="#">Bahasa Indonesia</a>
+                                                        <a class="dropdown-item" href="#">Bahasa Melayu</a>
+                                                        <a class="dropdown-item" href="#">Dansk</a>
+                                                        <a class="dropdown-item" href="#">Deutsch</a>
+                                                        <a class="dropdown-item" href="#">English</a>
+                                                        <a class="dropdown-item" href="#">Español</a>
+                                                        <a class="dropdown-item" href="#">Français</a>
+                                                        <a class="dropdown-item" href="#">Italiano</a>
+                                            
+                                                    </div>
+                                                    <div class="a2">
+                                                        <label for=""></label>
+                                                        <a class="dropdown-item" href="#">Magyar</a>
+                                                        <a class="dropdown-item" href="#">Nederlands</a>
+                                                        <a class="dropdown-item" href="#">Norsk</a>
+                                                        <a class="dropdown-item" href="#">Polski</a>
+                                                        <a class="dropdown-item" href="#">Português (Brasil)</a>
+                                                        <a class="dropdown-item" href="#">Português (Portugal)</a>
+                                                        <a class="dropdown-item" href="#">Română</a>
+                                                        <a class="dropdown-item" href="#">Suomi</a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="menu-b d-flex">
+                                                    
+                                                    <div class="a1 ">
+                                                        <label for="dropdown-item" class="text-nowrap" >Featured collections</label>
+                                                        <a class="dropdown-item" href="#">Svenska</a>
+                                                        <a class="dropdown-item" href="#">Türkçe</a>
+                                                        <a class="dropdown-item" href="#">Wikang Filipino</a>
+                                                        <a class="dropdown-item" href="#">Čeština</a>
+                                                        <a class="dropdown-item" href="#">Ελληνικά</a>
+                                                        <a class="dropdown-item" href="#">Русский</a>
+                                                        <a class="dropdown-item" href="#">עברית</a>
+                                                        <a class="dropdown-item" href="#">العربية</a>
+                                                    </div>
+                                                    <div class="a2">
+                                                        <label for=""></label>
+                                                        
+                                                        <a class="dropdown-item" href="#">हिन्दी</a>
+                                                        <a class="dropdown-item" href="#">தமிழ்</a>
+                                                        <a class="dropdown-item" href="#">తెలుగు</a>
+                                                        <a class="dropdown-item" href="#">ไทย</a>
+                                                        <a class="dropdown-item" href="#">日本語</a>
+                                                        <a class="dropdown-item" href="#">简体中文</a>
+                                                        <a class="dropdown-item" href="#">繁體中文</a>
+                                                        <a class="dropdown-item" href="#">한국어</a>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <div class="signin-btn">
+                                            <button id="login" class=" bg-dark p-2 " ><i  class=" fa-solid fa-user fa-xl" style="color: #a9aaad;"></i></button>
+                                        </div>
+                                    </li>
+                                    
+                            </ul>
+                        </div>
+                    </nav>    
+                </div>
+                
+            </div>
+        </div>
+        
+
+    </header>
+    
+    <section id="sec1" class="p-5 text-white ">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 col-md-7 ">
+                    <div class="main-heading pb-5 ">
+                        <h1 id="sec1h">Welcom to Prime Video</h1>
+                    </div>
+                    <div class="main-h2">
+                        <p id="sec1p" class=" pb-5">Watch the latest movies, TV shows, and award-winng Amazon Originals</p>
+                    </div>
+                    <div class="main-btn">
+                        <button onclick="signin()" id="sec1btn" type="button" class="btn btn-primary ps-5 pe-5 ">Sign in to join Prime</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="sec2" class="p-5 text-white ">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 col-md-7 ">
+                    <div class="main-heading pb-5 ">
+                        <h1 id="sec2h" class="">Movie rentals on Prime Video</h1>
+                    </div>
+                    <div class="main-h2">
+                        <p id="sec2p" class="pb-5">Early Access to new movies, before digital subscription</p>
+                    </div>
+                    <div class="main-btn">
+                        <button onclick="rent()" id="sec2btn1" type="button" class="btn btn-primary ps-5 pe-5">Rent now</button>
+                        <button onclick="freeRent()" id="sec2btn2" id="sec2btn2" type="button" style="display: none;" class="btn btn-primary ps-5 pe-5">For trail</button>
+                        <button onclick="pay()" id="sec2btn3" id="sec2btn3" type="button" style="display: none;" class="btn btn-primary ps-5 pe-5">Pay and Watch</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="sec3" class="p-5 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <h1 id="sec3h" class="">Your favorite channeles all in one palce</h1>
+                    <p id="sec3p" class="pb-5">With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</p>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="row">
+                        <div id="img1" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg" alt=""></a>
+                        </div>
+                        <div id="img2" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg" alt=""></a>
+                        </div>
+                        <div id="img3" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="row " >
+                        <div id="img4" class="col-4 col-md-4 ">
+                            <a  href="#"><img style="" class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg" alt=""></a>
+                        </div>
+                        <div id="img5" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg" alt=""></a>
+                        </div>
+                        <div id="img6" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div id="img7" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Amc.png" alt=""></a>
+                        </div>
+                        <div id="img8" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" alt=""></a>
+                        </div>
+                        <div id="img9" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Mubi-426X2946_V1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="img10" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png" alt=""></a>
+                        </div>
+                        <div id="img11" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png" alt=""></a>
+                        </div>
+                        <div id="img12" class="col-4 col-md-4">
+                            <a href="#"><img class="img-fluid p-1 " src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Docubay-426X2947_V1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sec4" class="pt-5 text-white ">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 col-md-6">
+
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="main-heading pb-5 ">
+                        <h1 id="sec4h" class="">Even better with Fire TV Stick</h1>
+                    </div>
+                    <div class="main-h2">
+                        <p id="sec4p" class=" pb-5">The biggest movies and TV shows are always better on a big screen. Simply plug in your Amazon Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name of the title you want to watch to find it in seconds.</p>
+                    </div>
+                    <div class="main-btn">
+                        <button id="sec4btn" type="button" class="btn btn-primary ps-5 pe-5 ">Get Started</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="sec5" class="p-5 text-white ">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 col-md-5 ">
+                    <div class="main-heading pb-5 ">
+                        <h1 id="sec5h" class="">Family Friendly</h1>
+                    </div>
+                    <div class="main-h2">
+                        <p id="sec5p" class=" pb-5">With easy to use Parental Controles and a dedicated kids page, enjoy secure, ad-free kids entertainment. Kids can enjoy popular TV shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.</p>
+                    </div>
+                    <div class="main-btn">
+                        <button id="sec5btn" type="button" class="btn btn-primary ps-5 pe-5 ">Get Started</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container p-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/web_footer_logo._CB462908456_.png" alt="">
+                    </div>
+                    <div>
+                        <p id="priacy" class="">
+                            <samp>
+                                <a href="#">Terms and Privacy Notice</a>
+                            </samp>
+                            <span>
+                                <a href="#">Send us feedback</a>
+                            </span>
+                            <span>
+                                <a href="#">Helpe</a>
+                            </span>
+                        </p>
+                    </div>
+                    <div>
+                        <p class=" text-secondary"><span>© 1996-2023, Amazon.com, Inc. or its affiliates</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- boostrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
